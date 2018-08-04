@@ -1,0 +1,30 @@
+* {
+    margin: 5;
+    padding: 0;
+  }
+  body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial,sans-serif;
+    font-size: 16px;
+  }
+  
+  #header {
+    background:#FF0000;
+    color: white;
+    padding:20px;
+  }
+  
+  #content {
+    top: 300px;
+    background: #555;
+    color: #FF0000;
+    width: 596px;
+    margin: 10px;
+    padding: 1em;
+  }
+
+  #sidebar {
+    background: rgb(64, 238, 11);
+    padding: 5px;
+  }
