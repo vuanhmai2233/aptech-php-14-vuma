@@ -1,0 +1,32 @@
+.header{
+    weight: 100%;
+    height: 20%;
+    font-size: 35px;
+    background-color: rgb(0, 0, 0);
+    size: 400px;
+    color: rgb(243, 3, 3);
+    display: flex;
+    justify-content:center;
+    line-height: 0.1;
+}
+.content{
+        display: flex;
+        flex-direction: row;
+        background: #000;   
+        height: 60%;
+        weight: 100%;
+}
+.footer{
+        
+        background: rgb(199, 110, 235);
+        height: 20%;
+        weight: 100%; 
+}
+.a1{    
+        weight: 40%;
+        height: 100%; 
+        border: solid  blueviolet;
+        margin-left: 20px;
+        margin-right: 20px;
+}
+
