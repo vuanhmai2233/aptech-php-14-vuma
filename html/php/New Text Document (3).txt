@@ -1,0 +1,50 @@
+container->row->column->nô?i dung
+row: chiê´m diê?n ti´ch ha`ng ngang cu?a mô?t container .
+column : co´ 12 cô?t trong row . 
+pha?i khai ba´o hê´t 12 cô?t trong row . 
+container nguyên khô´i
+nê´u nô?i dug cu?a ba?n dang ngam chiê`u ngang . thi` justify center row -> alight center .
+justify-content-center + d-flex can chi?nh theo chiê`u ngang . va muô´n can chi?nh theo chiê`u do?c thêm align-items-center dê? can chi?nh ra chi´nh giu~a
+flex-column : sa´p xê´p ca´c the? tha`nh ha`ng do?c . 
+
+height :100vh; vu´t va`o body dê? can chi?nh chiê`u cao .
+
+text-danger : su?a ma`u icons
+
+https://fontawesome.com/icons?d=gallery : icon web .
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous"> =>>>>>. nhu´ng css icon
+
+.meunu:hover{ =>> hiê?u u´ng diê`u chi? con tro? 
+     text-decoration: underline;   =>> nga?ch ngang khi click va`o link 
+     cursor: pointer;         =>> hiê?u u´ng dô?i con tro? . 
+}
+
+font-family: di?nh da?ng kiê?u chu~
+font-weight : ;
+font-size : ;
+card --------
+thumbnail
+https://picsum.photos/
+
+https://viblo.asia/p/gioi-thieu-ve-bootstrap-card-component-WAyK8VxolxX
+
+xs 0px;
+sm 576px;
+md 768px; 
+lg 922px;
+xl; 1200px;
+
+d-block;
+d-md-none;
+
+card title : xuô´ng do`ng doa?n van . 
+<b> </b> : in dâ?m chu~
+
+my : can do?c .
+mx : can ngang .
+py : can do?c
+px can ngang .
+
+
+document.getElementById('js-button').style.display= 'none'; â?n button js 

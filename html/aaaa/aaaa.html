@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7"
+        crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bootstrap.css" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Page Title</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="d-none d-md-flex align-items-center col-md-3">
+                <button type="button" class="btn btn-outline-danger">SIGN UP NOW</button>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-between justify-content-md-center align-items-center">
+                <h1 class="text-center text-success ">NEWS</h1>
+                <div class="d-block d-md-none">
+                <button type="button" class="btn btn-outline-success border-success" id="js-navigation-button">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+                </div>
+
+            </div>
+            <div class="d-none d-md-flex align-items-center col-md-3">
+                <a href="#" style="color: black">
+                <i class="fas fa-search"></i></a>
+                <button type="button" class="btn btn-outline-success ml-2">SIGN IN</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="d-none col-md-12 d-md-flex" >
+                <nav class="d-flex flex-column flex-md-row justify-content-around w-100" id="js-navigation">
+                    <a class="nav-link text-dark" href="#">Home</a>
+                    <a class="nav-link text-dark" href="#">HTML</a>
+                    <a class="nav-link text-dark" href="#">CSS</a>
+                    <a class="nav-link text-dark" href="#">JavaScript</a>
+                    <a class="nav-link text-dark" href="#">PHP</a>
+                    <a class="nav-link text-dark" href="#">React JS</a>
+                    <a class="nav-link text-dark" href="#">Laravel</a>
+                </nav>
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+
+</html>

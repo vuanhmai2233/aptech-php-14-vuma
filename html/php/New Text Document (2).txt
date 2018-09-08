@@ -1,0 +1,153 @@
+KA@DESKTOP-3N8O945 MINGW64 ~
+$ cd /c/
+
+KA@DESKTOP-3N8O945 MINGW64 /c
+$ ls
+'$Recycle.Bin'/                    aptech-php-14-MaiAnhVu/   BOOTNXT       'Documents and Settings'@   MSOCache/     'Program Files'/         README.md     'System Volume Information'/
+'$WINRE_BACKUP_PARTITION.MARKER'   Boot/                     BOOTSECT.BAK   hiberfil.sys               pagefile.sys  'Program Files (x86)'/   Recovery/      Users/
+ aow_drv.log                       bootmgr                   Dell/          Intel/                     PerfLogs/      ProgramData/            swapfile.sys   Windows/
+
+KA@DESKTOP-3N8O945 MINGW64 /c
+$ git push origin master
+fatal: not a git repository (or any of the parent directories): .git
+
+KA@DESKTOP-3N8O945 MINGW64 /c
+$ git push origin
+fatal: not a git repository (or any of the parent directories): .git
+
+KA@DESKTOP-3N8O945 MINGW64 /c
+$ git init
+Initialized empty Git repository in C:/.git/
+
+KA@DESKTOP-3N8O945 MINGW64 /c (master)
+$ ls
+'$Recycle.Bin'/                    aptech-php-14-MaiAnhVu/   BOOTNXT       'Documents and Settings'@   MSOCache/     'Program Files'/         README.md     'System Volume Information'/
+'$WINRE_BACKUP_PARTITION.MARKER'   Boot/                     BOOTSECT.BAK   hiberfil.sys               pagefile.sys  'Program Files (x86)'/   Recovery/      Users/
+ aow_drv.log                       bootmgr                   Dell/          Intel/                     PerfLogs/      ProgramData/            swapfile.sys   Windows/
+
+KA@DESKTOP-3N8O945 MINGW64 /c (master)
+$ cd /aptech-php--MaiAnhVu/
+bash: cd: /aptech-php--MaiAnhVu/: No such file or directory
+
+KA@DESKTOP-3N8O945 MINGW64 /c (master)
+$ cd aptech-php-14-MaiAnhVu/
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ ls
+2018-7-31/  aptech-php-14-vuma/  README.md  vu.html
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ mkdir vu1.html
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ ls
+2018-7-31/  aptech-php-14-vuma/  README.md  vu.html  vu1.html/
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ git add .
+warning: adding embedded git repository: aptech-php-14-vuma
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> aptech-php-14-vuma
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached aptech-php-14-vuma
+hint:
+hint: See "git help submodule" for more information.
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ git commit -m 'created vu1.html'
+[master 750d87e] created vu1.html
+ 1 file changed, 1 insertion(+)
+ create mode 160000 aptech-php-14-vuma
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 315 bytes | 157.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/vuanhmai2233/aptech-php-14-vuma.git
+   b89e016..750d87e  master -> master
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ touch folder vu2.html
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ git add vu2.html
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ git commit -m 'created vu2.html'
+[master c13e184] created vu2.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 vu2.html
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 240 bytes | 240.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/vuanhmai2233/aptech-php-14-vuma.git
+   750d87e..c13e184  master -> master
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu (master)
+$ cd 2018-7-31/
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu/2018-7-31 (master)
+$ ls
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu/2018-7-31 (master)
+$ touch folder anhvu.html
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu/2018-7-31 (master)
+$ ls
+anhvu.html  folder
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu/2018-7-31 (master)
+$ add anhvu.html
+bash: add: command not found
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu/2018-7-31 (master)
+$ git add anhvu.html
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu/2018-7-31 (master)
+$ git commit -m 'created anhvu.html'
+[master 48a06dd] created anhvu.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2018-7-31/anhvu.html
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu/2018-7-31 (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 311 bytes | 311.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/vuanhmai2233/aptech-php-14-vuma.git
+   c13e184..48a06dd  master -> master
+
+KA@DESKTOP-3N8O945 MINGW64 /c/aptech-php-14-MaiAnhVu/2018-7-31 (master)
+$ git clone
